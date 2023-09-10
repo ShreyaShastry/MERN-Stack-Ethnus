@@ -1,0 +1,42 @@
+/*
+td{
+    width: 30px;
+}
+*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#a22b56;
+    height: 100vh;
+
+}
+.reg-form{
+    display: flex;
+    background-color: #741f3e;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 600px;
+    font-family: sans-serif;
+}
+.reg-form .submit{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+.reg-form input,
+.reg-form textarea,
+.reg-form select{
+    padding: 5px;
+
+}
+*{
+    margin: 0;
+}
